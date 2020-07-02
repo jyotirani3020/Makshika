@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ui.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #eb9605;
+    border-color: #eb9605;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;}
+ 
+    </style>
+    <title>Makshika - Shopping</title>
+</head>
+<body>
+    <header class="section-header">
+
+        <section class="header-main border-bottom">
+            <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-2 col-4">
+                <a href="index.html" class="brand-wrap">
+                    <img  src="images/logo.png">
+                </a> <!-- brand-wrap.// -->
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <form action="#" class="search">
+                    <div class="input-group w-100">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                          <button class="btn btn-dark btn-honey" type="submit">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                    </div>
+                </form> <!-- search-wrap .end// -->
+            </div> <!-- col.// -->
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="widgets-wrap float-md-right">
+                    <div class="widget-header  mr-3">
+                        <a href="cart.html" class="icon icon-sm "><i class="fa fa-shopping-cart"></i></a>
+                        <span class="badge badge-pill badge-danger notify">0</span>
+                    </div>
+                    <div class="widget-header icontext">
+                        <a href="account.html" class="icon icon-sm"><i class="fa fa-user"></i></a>
+                        <div class="text">
+                            <span class="text-muted">Welcome!</span>
+                            <div> 
+                                <a href="login.html">Sign in</a> |  
+                                <a href="register.html"> Register</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div> <!-- widgets-wrap.// -->
+            </div> <!-- col.// -->
+        </div> <!-- row.// -->
+            </div> <!-- container.// -->
+        </section> <!-- header-main .// -->
+        </header> <!-- section-header.// -->
+        
+        
+        
+        <!-- ========================= SECTION PAGETOP ========================= -->
+        <section class="section-pagetop bg">
+        <div class="container section-title">
+            <h2 class="title-page">Category products</h2>
+        </div> <!-- container //  -->
+        </section>
+        <!-- ========================= SECTION INTRO END// ========================= -->
+        
+        <!-- ========================= SECTION CONTENT ========================= -->
+        <section class="section-content padding-y">
+        <div class="container">
+        
+        <div class="row">
+            <aside class="col-md-3">
+                
+        <div class="card">
+            <article class="filter-group">
+                <header class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                        <i class="icon-control fa fa-chevron-down"></i>
+                        <h6 class="title">Honey Categories</h6>
+                    </a>
+                </header>
+                <div class="filter-content collapse show" id="collapse_1" style="">
+                    <div class="card-body">
+                        <form class="pb-3">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                          <div class="input-group-append">
+                            <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+                          </div>
+                        </div>
+                        </form>
+                        
+                        <ul class="list-menu">
+                        <li><a href="#">People  </a></li>
+                        <li><a href="#">Watches </a></li>
+                        <li><a href="#">Cinema  </a></li>
+                        <li><a href="#">Clothes  </a></li>
+                        <li><a href="#">Home items </a></li>
+                        <li><a href="#">Animals</a></li>
+                        <li><a href="#">People </a></li>
+                        </ul>
+        
+                    </div> <!-- card-body.// -->
+                </div>
+            </article> <!-- filter-group  .// -->
+            
+            
+            </aside> <!-- col.// -->
+            <main class="col-md-9">
+        
+        <header class="border-bottom mb-4 pb-3">
+                <div class="form-inline">
+                    <span class="mr-md-auto">32 Items found </span>
+                    <select class="mr-2 form-control">
+                        <option>Latest items</option>
+                        <option>Trending</option>
+                        <option>Most Popular</option>
+                        <option>Cheapest</option>
+                    </select>
+                   
+                </div>
+        </header><!-- sect-heading -->
+        
+        <div class="row">
+            <!-- <div class="col-md-4">
+                <div class="honey_v_1 text-center pb-4">
+                  <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="products/honey_3.png" alt="Image" class="img-fluid"></a>
+                  <div>
+                    <h3 class="heading mb-1"><a href="#">Trius Cabernet France 2011</a></h3>
+                    <span class="price">$629.00</span>
+                  </div>
+                  
+      
+                  <div class="honey-actions">
+                      
+                    <h3 class="heading-2"><a href="#">Trius Cabernet France 2011</a></h3>
+                    <span class="price d-block"><del>$900.00</del> $629.00</span>
+                    
+                    <div class="rating">
+                      <span class="icon-star"><i class="fa fa-star" aria-hidden="true"></i>
+                      </span>
+                      <span class="icon-star"><i class="fa fa-star" aria-hidden="true"></i>
+                      </span>
+                      <span class="icon-star"><i class="fa fa-star" aria-hidden="true"></i>
+                      </span>
+                      <span class="icon-star"><i class="fa fa-star" aria-hidden="true"></i>
+                      </span>
+                      <span class="icon-star-o"><i class="fa fa-star-o" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                    
+                    <a href="checkout.html" class="btn add"><span class="icon-shopping-bag mr-3"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </span>Quick shop</a>
+                  </div>
+                </div>
+              </div> -->
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <span class="badge badge-danger"> NEW </span>
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title ">Great item name goes here</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                                <del class="price-old">$1980</del>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        
+            <div class="col-md-4">
+                <figure class="card card-product-grid">
+                    <div class="img-wrap"> 
+                        <img src="products/honey_4.png">
+                        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                    </div> <!-- img-wrap.// -->
+                    <figcaption class="info-wrap">
+                        <div class="fix-height">
+                            <a href="#" class="title">Product name goes here just for demo item</a>
+                            <div class="price-wrap mt-2">
+                                <span class="price">$1280</span>
+                            </div> <!-- price-wrap.// -->
+                        </div>
+                        <a href="#" class="btn btn-block btn-dark btn-honey">Add to cart </a>	
+                    </figcaption>
+                </figure>
+            </div> <!-- col.// -->
+        </div> <!-- row end.// -->
+        
+        
+        <nav class="mt-4" aria-label="Page navigation sample">
+          <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item "><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+        
+            </main> <!-- col.// -->
+        
+        </div>
+        
+        </div> <!-- container .//  -->
+        </section>
+        <!-- ========================= SECTION CONTENT END// ========================= -->
+        
+        <!-- ========================= FOOTER ========================= -->
+        <footer class="section-footer border-top padding-y">
+            <div class="container">
+                <p class="float-md-right"> 
+                    &copy Copyright 2019 All rights reserved
+                </p>
+                <p>
+                    <a href="#">Terms and conditions</a>
+                </p>
+            </div><!-- //container -->
+        </footer>
+        <!-- ========================= FOOTER END // ========================= -->
+        
+        
+        
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+</body>
+</html>
