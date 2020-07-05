@@ -10,52 +10,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Makshika - Home</title>
-    
-    <style>
         
-
+    <style>
+      .banner{
+          background: url('images/banner-big.png');
+         
+          background-repeat: no-repeat;
+          background-size: 100% 120%;
+        }
     </style>
   
 </head>
 <body>
-<div class="banner">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="shop.html">Shop</a>
-        </li>
-        
-      </ul>
-        <ul class="navbar-nav ml-auto">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="login.html"><i class="fa fa-user"></i>   Login/Register</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i>  Cart</a>
-        </li>
-     
-        
-      </ul>
+  <div class="banner">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-honey" >
+        <a class="navbar-brand" href="#">
+          <img src="images/logo1.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+              <a class="btn btn-dark" href="login.html"><i class="fa fa-user"></i>   Login/Register</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="btn btn-dark" href="cart.html"><i class="fa fa-shopping-cart"></i>  Cart</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+        <div class="page-header-content pt-10">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 >Some thing about <span>honey</span></h1>
+                        <p class="mb-5">Honey is nature's most remarkable and finest work. It is a one-ingredient, flower nectar, recipe made by bees. </p>
+                        <a class="btn btn-primary btn-gradient" href="shop.html">Shop now</a>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block"><img class="img-fluid" src="images/honey.png" /></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
-<br>
 
 <!-- navbar end -->
 
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -90,7 +107,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+  </div> -->
 
 <!-- header end -->
 </div>

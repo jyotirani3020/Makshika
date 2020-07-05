@@ -378,7 +378,8 @@ p:last-child {
 .header-main {
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem; 
+}
 
 .brand-wrap .logo, .navbar-brand .logo {
   margin-right: 7px;
