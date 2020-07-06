@@ -1,9 +1,15 @@
 /* ==== BASE STYLES ====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "poppins" , sans-serif;
   font-size: 15px; }
-
+  body {
+    line-height: 1.7;
+    color: rgb(36, 36, 36);
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: "Poppins",sans-serif; }
 /* ========================
 INCLUDE STYLES AND COMPONENTS
 ===================== */
@@ -39,7 +45,15 @@ a:hover {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0; }
-
+ 
+          .navbar-honey {
+            -webkit-transition: background-color 0.15s ease-in-out;
+            transition: background-color 0.15s ease-in-out;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            
+            background-color: #f0c73e;
+            }
 .icon-xs {
   width: 32px;
   height: 32px;
@@ -714,14 +728,14 @@ ul.row, ul.row-sm {
     padding-left: 24px;
     margin-bottom: 7px; }
   .list-check > li::before {
-    font-family: 'Font Awesome 5 Free';
+    font-family: "poppins" , sans-serif;
     font-weight: 900;
     font-size: 12px;
     color: #00b517;
     position: absolute;
     top: 2px;
     left: 0;
-    content: "\f00c"; }
+    }
 
 .list-normal {
   list-style: none;
@@ -735,7 +749,9 @@ ul.row, ul.row-sm {
     display: inline-block;
     width: 1em;
     margin-left: -1em; }
-
+    .bg-honey{
+      background: #fffdd0;
+    }
 .list-menu {
   list-style: none;
   margin: 0;
@@ -1237,7 +1253,7 @@ a[class*='card'] {
     z-index: 1999;
     width: 100%;
     background: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "poppins" , sans-serif;
     }
     .site-navbar .site-navigation.border-bottom {
       border-bottom: 1px solid #f3f3f4 !important; }
@@ -1281,7 +1297,7 @@ a[class*='card'] {
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            font-family: 'icomoon'; }
+            font-family: 'poppins', sans-serif; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown {
           visibility: hidden;
           opacity: 0;
@@ -1578,3 +1594,64 @@ a[class*='card'] {
     border-color: #eb9605;
     
 }    
+a.btn.btn-dark{
+  font-family: "poppins" , sans-serif;
+  border-radius: 16px;
+  font-size: 13px;
+}
+input-group{
+  border-radius: 16px;
+}
+.btn-grey{
+  background-color:#D8D8D8;
+color:#FFF;
+}
+.rating-block{
+background-color:#FAFAFA;
+border:1px solid #EFEFEF;
+padding:15px 15px 20px 15px;
+border-radius:10px;
+}
+.rating-block i{
+  color: #eb9605;
+}
+.bold{
+font-weight:700;
+}
+.padding-bottom-7{
+padding-bottom:7px;
+}
+
+.review-block{
+background-color:#FAFAFA;
+border:1px solid #EFEFEF;
+padding:15px;
+border-radius:10px;
+margin-bottom:15px;
+}
+.review-block-name{
+font-size:12px;
+margin:10px 0;
+}
+.review-block-date{
+font-size:12px;
+}
+.review-block-rate{
+font-size:13px;
+margin-bottom:15px;
+}
+.review-block-title{
+font-size:15px;
+font-weight:700;
+margin-bottom:10px;
+}
+.review-block-description{
+font-size:13px;
+}
+.progress-bar{
+  background-color: #eb9605;
+}
+
+.review-block i{
+ color: #eb9605;
+}
