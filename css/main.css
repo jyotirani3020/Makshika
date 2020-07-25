@@ -13,28 +13,51 @@ html {
         background: rgba(0, 0, 0, 0.6);
     }
 
-    
+    .top-bar {
+      font-family: 'arial' ,sans-serif;
+     padding: 0%;
+      font-size: 12px;
+    }
+    .top-bar a{
+      color: white;
+    }
     .page-header-content {
-      padding-top: 7rem;
-      padding-bottom: 7rem;
+     
+
 
     }
     .page-header-content h1{
       font-family: 'pacifico';
       font-size: 50px;
       padding-bottom: 1rem;
-      
+    }
 
+    .top_bar_container_fluid a{
+      color: rgba(0, 0, 0, 0.5);
 
     }
+    .carousel-caption h1{
+      padding-bottom: 350px;
+      font-size: 100px;
+    }
     
+    .carousel-caption span{
+    
+      font-size: 30px;
+    }
+    
+
+.navbar-honey-a{
+  padding: 2rem;
+   
+}
     .navbar-honey {
     -webkit-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
-    background-color: #f0c73e;
+    background-color:white;
+    /* background-color: #f0c73e; */
     }
 
   body {

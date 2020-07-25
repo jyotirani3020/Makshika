@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+   html,body {
+    height: 100%;
+}
+body {
+  padding-top: 70px;
+}
+
+@media (min-width: 992px) { 
+  nav.navbar {
+    height: 200px;
+
+  }
+  body {
+    padding-top: 250px;
+  }
+}
+    </style>
+</head>
+<body>
+    <header id="immortal_header">
+	
+	
+		<!--*-*-*-*-*-*-*-*-*-*- TOP BAR *-*-*-*-*-*-*-*-*-*-->
+
+		<div class="container-fluid top_bar_container_fluid">		
+			<div class="container">			
+				<div class="row">
+
+					<div class="col-md-4 top_bar_line_height">
+						
+						<!--======= Login Button =========-->
+						<a href="#top_bar_login_modal" data-toggle="modal" id="top_bar_login_btn">
+							<i class="fa fa-sign-in"></i> Login |
+						</a>
+
+						<!--======= Register Button =========-->
+						<a href="#top_bar_register_modal" data-toggle="modal" id="top_bar_register_btn">
+							<i class="fa fa-key"></i> Register |
+						</a>
+								
+						<!--======= Search Button =========-->
+						<a href="#top_bar_search_modal" data-toggle="modal" id="top_bar_search_btn">
+							<i class="fa fa-search"></i> Search |
+						</a>
+
+					</div>
+					
+					<!--======= Phone Number =========-->
+					<div class="col-md-2 top_bar_line_height" id="top_bar_phone">
+						<i class="fa fa-phone"></i> | +1 (234) 567 89 00
+					</div>
+					
+					<!--======= E-mail =========-->
+					<div class="col-md-3 top_bar_line_height" id="top_bar_email">
+						<i class="fa fa-envelope"></i>
+						<a href="#" target="_blank"> | info@immortal.com</a>
+					</div>
+					
+					<!--======= Social Media Icons =========-->
+					<div class="col-md-3" id="top_bar_social_icons">
+						<ul class="pull-right">
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="1M">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="0.5M">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="5.0k">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Skype">
+									<i class="fa fa-skype"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="2.5k">
+									<i class="fa fa-youtube"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Rss">
+									<i class="fa fa-rss"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div> <!--*-*-*-*-*-*-*-*-*-*- End Top Bar *-*-*-*-*-*-*-*-*-*-->
+
+
+		<!--*-*-*-*-*-*-*-*-*-*- NAVIGATION BAR *-*-*-*-*-*-*-*-*-*-->
+
+        <nav class="navbar navbar-default top_bar_navbar affix-top" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
+
+			<div class="container">
+			
+				<!--======= NavBar Header =========-->
+				<div class="navbar-header top_bar_navbar_header">
+					
+					<!--======= Brand Logo =========-->
+					<a class="navbar-brand" href="index.html">
+						<img class="img-responsive" src="images/purple_logo_black.png" alt="purple logo black" id="top_bar_header_logo">
+					</a>
+
+					<!--======= Toggle Button =========-->
+					<button type="button" class="navbar-toggle top_bar_navbar_toggle collapsed" data-toggle="collapse" data-target="#topbarNavbar">
+						<span class="icon-bar top_bar_top_icon_bar"></span>
+						<span class="icon-bar top_bar_middle_icon_bar"></span>
+						<span class="icon-bar top_bar_bottom_icon_bar"></span>                        
+					</button>
+
+				</div>
+					
+				<div class="collapse navbar-collapse" id="topbarNavbar">
+					<ul id="dropdown_slide" class="nav navbar-nav top_bar_navbar_nav pull-right">
+						
+						<!--======= Home Tab =========-->
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+
+						<!--======= Multi Levels Dropdown =========-->
+						<li class="dropdown top_bar_dropdown_scale">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+								<span class="fa fa-angle-down top_bar_fa_angle_down"></span>
+							</a>
+							
+							<ul class="dropdown-menu top_bar_dropdown_menu">
+
+								<!--======= Right Dropdown =========-->
+								<li class="dropdown top_bar_dropdown_scale top_bar_dropdown_right">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">First Level Dropdown
+										<i class="fa fa-angle-double-right"></i>
+									</a>
+								
+								
+								
+								</li>
+								
+								<!--======= Right Dropdown =========-->
+								<li class="dropdown top_bar_dropdown_scale top_bar_dropdown_right">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">First Level Dropdown 
+									<i class="fa fa-angle-double-right"></i>
+									</a>
+								
+									
+								
+								</li>
+								
+								<li><a href="#">First Level Dropdown</a></li>
+								
+								<!--======= Left Dropdown =========-->
+								<li class="dropdown top_bar_dropdown_scale top_bar_dropdown_left">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">First Level Dropdown 
+										<i class="fa fa-angle-double-left"></i>
+									</a>
+								
+									
+								</li>
+								
+								<!--======= Left Dropdown =========-->
+								<li class="dropdown top_bar_dropdown_scale top_bar_dropdown_left">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">First Level Dropdown 
+										<i class="fa fa-angle-double-left"></i>
+									</a>
+								
+								
+								
+								</li>
+								
+								<li><a href="#">First Level Dropdown</a></li>
+								
+							 </ul>
+						</li>
+
+						<!--======= ShortCodes Dropdown =========-->
+						<li class="dropdown top_bar_dropdown_scale">
+							
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">ShortCodes
+								<span class="fa fa-angle-down top_bar_fa_angle_down"></span>
+							</a>
+							
+							<ul class="row dropdown-menu top_bar_dropdown_menu top_bar_dropdown_menu_shortcodes">
+
+								<!--======= First ShortCodes List =========-->
+								<li class="col-sm-3 top_bar_shortcodes_list top_bar_shortcodes_list_border">
+
+							
+								</li>
+
+								<!--======= Second ShortCodes List =========-->
+								<li class="col-sm-3 top_bar_shortcodes_list top_bar_shortcodes_list_border">
+								
+									<ul>
+									
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 09</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 10</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 11</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 12</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 13</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 14</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 15</a></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i> Short Code 16</a></li>
+									
+									</ul>
+
+								</li>
+
+								<!--======= Third ShortCodes List =========-->
+								<li class="col-sm-3 top_bar_shortcodes_list top_bar_shortcodes_list_border">
+								
+		
+								</li>
+
+								<!--======= Fourth ShortCodes List =========-->
+								<li class="col-sm-3 top_bar_shortcodes_list">
+
+								</li>
+
+							 </ul>
+						</li>
+
+						<!--======= Features Dropdown =========-->
+						<li class="dropdown top_bar_dropdown_scale">
+							
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features
+								<span class="fa fa-angle-down top_bar_fa_angle_down"></span>
+							</a>
+							
+							<ul class="row dropdown-menu top_bar_dropdown_menu top_bar_dropdown_menu_features">
+
+								<!--======= First Features List =========-->
+								<li class="col-sm-3 top_bar_features_list top_bar_features_list_border">
+
+								</li>
+
+								<!--======= Second Features List =========-->
+								<li class="col-sm-3 top_bar_features_list top_bar_features_list_border">
+								
+								
+
+								</li>
+
+								<!--======= Third Features List =========-->
+								<li class="col-sm-3 top_bar_features_list top_bar_features_list_border">
+								
+									
+
+								</li>
+
+								<!--======= Fourth Features List =========-->
+								<li class="col-sm-3 top_bar_features_list">
+
+								</li>
+
+							 </ul>
+						</li>
+						
+						<!--======= Mega Dropdown =========-->
+						<li class="dropdown top_bar_dropdown_scale">
+							
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega
+								<span class="fa fa-angle-down top_bar_fa_angle_down"></span>
+							</a>
+							
+							<ul class="row dropdown-menu top_bar_dropdown_menu top_bar_dropdown_menu_mega">
+
+								<!--======= Mega List =========-->
+								<li class="col-sm-3 top_bar_mega_list">
+
+								
+								
+								</li>
+
+								<!--======= Image Part =========-->
+								<li class="col-sm-4 top_bar_mega_image">
+								
+									<ul>
+										<li class="top_bar_mega_image_heading">
+											<h4>Dropdown Image</h4>
+										</li>
+											
+										<li>
+											<img src="images/mega_dropdown_img.png" alt="mega dropdown img">
+										</li>
+										<li>
+											<h5>Lorem ipsum dolor sit amet:</h5>
+											<p> Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum</p>
+										</li>
+									</ul>
+
+								</li>
+
+								<!--======= Posts Part =========-->
+								<li class="col-sm-5 top_bar_mega_posts">
+								
+									<ul>
+
+										<li class="top_bar_mega_posts_heading"><h4>Popular Posts</h4></li>
+										
+										<!--======= First Post =========-->
+										<li>
+											<div class="row top_bar_mega_posts_row">
+											
+												<div class="col-sm-2 top_bar_mega_posts_col_img">
+													<img src="images/mega_post_01.png" alt="mega post 01">
+												</div>
+												<div class="col-sm-10 top_bar_mega_posts_col_text">
+													<h5><a href="#">Quisque faucibus wuisque ma</a></h5>
+													<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis.</p>
+												</div>
+											</div>
+										</li>
+										
+										<!--======= Second Post =========-->
+										<li>
+											<div class="row top_bar_mega_posts_row">
+											
+												<div class="col-sm-2 top_bar_mega_posts_col_img">
+													<img src="images/mega_post_02.png" alt="mega post 02">
+												</div>
+												<div class="col-sm-10 top_bar_mega_posts_col_text">
+													<h5><a href="#">Quisque faucibus wuisque ma</a></h5>
+													<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis.</p>
+												</div>
+											</div>
+										</li>
+										
+										<!--======= Third Post =========-->
+										<li>
+											<div class="row top_bar_mega_posts_row">
+											
+												<div class="col-sm-2 top_bar_mega_posts_col_img">
+													<img src="images/mega_post_03.png" alt="mega post 03">
+												</div>
+												<div class="col-sm-10 top_bar_mega_posts_col_text">
+													<h5><a href="#">Quisque faucibus wuisque ma</a></h5>
+													<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis.</p>
+												</div>
+											</div>
+										</li>
+										
+										<!--======= Fourth Post =========-->
+										<li>
+											<div class="row top_bar_mega_posts_row">
+											
+												<div class="col-sm-2 top_bar_mega_posts_col_img">
+													<img src="images/mega_post_04.png" alt="mega post 04">
+												</div>
+												<div class="col-sm-10 top_bar_mega_posts_col_text">
+													<h5><a href="#">Quisque faucibus wuisque ma</a></h5>
+													<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis.</p>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+
+								</li>
+
+							 </ul>
+						</li>
+						
+						<!--======= Shop Dropdown =========-->
+						<li class="dropdown top_bar_dropdown_scale">
+							
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop
+								<span class="fa fa-angle-down top_bar_fa_angle_down"></span>
+							</a>
+							
+							<ul class="dropdown-menu top_bar_dropdown_menu top_bar_dropdown_menu_shop">
+
+								<li>
+									<div class="row top_bar_dropdown_menu_shop_row">
+											
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_01.png" alt="shop img 01">
+											<h5><a href="#">first image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_02.png" alt="shop img 02">
+											<h5><a href="#">second image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_03.png" alt="shop img 03">
+											<h5><a href="#">third image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_04.png" alt="shop img 04">
+											<h5><a href="#">fourth image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="row top_bar_dropdown_menu_shop_row">
+											
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_05.png" alt="shop img 05">
+											<h5><a href="#">fifth image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_06.png" alt="shop img 06">
+											<h5><a href="#">sixth image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_07.png" alt="shop img 07">
+											<h5><a href="#">seventh image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+										<div class="col-sm-3 top_bar_dropdown_menu_shop_col">
+											<img src="images/shop_img_08.png" alt="shop img 08">
+											<h5><a href="#">eighth image</a></h5>
+											<p>Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor.</p>
+										</div>
+									</div>
+								</li>
+
+							</ul>
+							 
+						</li>
+						
+					
+
+	</header>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+
+</body>
+</html>

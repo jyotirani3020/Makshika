@@ -1709,6 +1709,21 @@ margin-left: 0;
 #wrapper.toggled #sidebar-wrapper {
   margin-left: -15rem;
 }
+
+
+.top-bar {
+  font-family: 'arial' ,sans-serif;
+ padding: 0%;
+  font-size: 12px;
+}
+.top-bar a{
+  color: white;
+}
+
+.navbar-honey-a{
+  padding: 2rem;
+   
+}
 }
 .nav-link{
   font-family: "poppins" , sans-serif;
