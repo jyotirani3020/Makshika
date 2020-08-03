@@ -14,12 +14,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   
-    <title>Makshika - Profile</title>
-
+    <title>Makshika - Blog</title>
     <style>
-
-        
-   </style>
+                .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #eb9605;
+    border-color: #eb9605;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;}
+ 
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-bar">
@@ -101,49 +114,46 @@
       
     </div>
   </nav>
-<section class="padding-small bg-honey">
+<section class="section-pagetop bg-honey">
+    <div class="container section-title text-center">
+        <h1 class="title-page">Recipes</h1>
+    </div> <!-- container //  -->
+</section>
+
+ 
+<section class="blog site-section">
     <div class="container">
       <div class="row">
-      
-        <div class="col-lg-8 col-xl-9 pl-lg-3">
-          <div class="block-header mb-5">
-            <h5>Reset password  </h5>
+        <!-- post-->
+        <div class="col-lg-6">
+          <div class="post post-gray d-flex align-items-center flex-md-row flex-column">
+            <div class="thumbnail d-flex-align-items-center justify-content-center"><img src="https://images.unsplash.com/photo-1592825775149-7601218da7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="..."></div>
+            <div class="info"> 
+              <h4 class="h5"> <a href="toast.html">Honey French Toast</a></h4>
+                    <p>Sweeten your morning by adding honey to this classic breakfast dish</p>
+            </div>
           </div>
-          <form class="content-block">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="password_old" class="form-label">Old password</label>
-                  <input id="password_old" type="password" class="form-control">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="password_1" class="form-label">New password</label>
-                  <input id="password_1" type="password" class="form-control">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="password_2" class="form-label">Retype new password</label>
-                  <input id="password_2" type="password" class="form-control">
-                </div>
-              </div>
-            </div>
-            <!-- /.row-->
-            <div class="text-center">
-              <button type="submit" class="btn btn-dark btn-honey"><i class="fa fa-save"></i>   Reset password</button>
-            </div>
-          </form>
-    
         </div>
-      </div>
+        <!-- /end post-->
+        
+        <!-- post-->
+        <div class="col-lg-6">
+          <div class="post post-gray d-flex align-items-center flex-md-row flex-column">
+            <div class="thumbnail d-flex-align-items-center justify-content-center"><img src="https://images.unsplash.com/photo-1589970343009-c6147c707b3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="..."></div>
+            <div class="info"> 
+              <h4 class="h5"> <a href="lassi.html">Mango Lassi with Honey</a></h4>
+                <p>Get your taste buds ready for chilled Mango lassi in the summer heat.</p>
+            </div>
+          </div>
+        </div>
+        <!-- /end post-->
+        
     </div>
   </section>
 
-<footer id="footer" class="footer-1">
+  <!-- footer starts -->
+
+  <footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">
     <div class="container">
     <div class="row">
@@ -219,11 +229,11 @@
     </div>
     </div>
     </footer>
-  
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
-  
-      
-  </body>
-  </html>
+
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+
+</body>
+</html>
