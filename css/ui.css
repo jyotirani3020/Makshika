@@ -1182,7 +1182,24 @@ a[class*='card'] {
 /* ================== PAGES =================== */
 /* ================ PAGES HEADER ================== */
 .section-pagetop {
-  padding: 45px 0; }
+  padding: 45px 0;
+  border-top: 4px solid #eb9605;
+}
+.section-title {
+  color: #000;
+  margin-bottom: 50px; }
+  .section-title h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    font-family: 'Cinzel', serif; }
+    .section-title h1 {
+      font-size: 4rem;
+      font-weight: 400;
+      position: relative;
+      display: inline-block;
+      font-family: 'Cinzel', serif; }
 
 /* ================== PAGE DETAILS ==================  */
 .gallery-wrap .img-big-wrap {
